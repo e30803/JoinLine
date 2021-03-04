@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_navigation"
+    app:startDestination="@+id/navigation_ItemOfficialMenu">
+
+    <fragment
+        android:id="@+id/navigation_ItemOfficialMenu"
+        android:name="com.iew.cstudio.joinline.menuTabView.FragmentOfficialBrand"
+        android:label="官方"
+        tools:layout="@layout/fragment_offical_brand" />
+
+    <fragment
+        android:id="@+id/navigation_ItemCustomMenu"
+        android:name="com.iew.cstudio.joinline.menuTabView.FragmentCustomBrand"
+        android:label="自訂"
+        tools:layout="@layout/fragment_custom_brand" />
+
+</navigation>

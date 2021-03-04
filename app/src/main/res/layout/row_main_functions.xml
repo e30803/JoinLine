@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/background_dark"
+    android:padding="15dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgFunctionView"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@android:color/background_dark"
+        app:tint="@android:color/primary_text_dark" />
+
+    <TextView
+        android:id="@+id/txtFunctionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFunctionView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/UI.MainFunction_Function_Menu"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>

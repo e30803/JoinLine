@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JoinLine</string>
+    <string name="UI.Splash.Title">JoinLine</string>
+    <string name="UI.Splash.Desc">Enjoy group buying life</string>
+    <string name="UI.LoginTitle">Please Key in your Phone Number</string>
+    <string name="UI.LoginNEXT">NEXT</string>
+    <string name="UI.SMSVerifyTitle">SMS Verify</string>
+    <string name="UI.SMSVerifySubTitle">Please Key in OTP Code</string>
+    <string name="UI.SMSVerifySubmit">Submit</string>
+    <string name="UI.SMSResendOTP">Resend OTP Code</string>
+    <string name="UI.IllegalPhoneNumber">Illegal Phone Number</string>
+    <string name="UI.IllegalPhoneNumberDetail">Please key in Correct Phone Number</string>
+    <string name="MSG.Error_Title">Error Message</string>
+    <string name="MSG.Error_Notification_FormatError">The received format of Notification Message is wrong</string>
+    <string name="UI.Main_MainFunction">Main Functions</string>
+    <string name="UI.Main_OtherFunction">Other Functions</string>
+    <string name="UI.MainFunction_Function_Menu">Menu_Order</string>
+    <string name="UI.MainFunction_Function_Activity">Activity</string>
+    <string name="UI.MainFunction_Function_Questionnaire">Questionnaire</string>
+    <string name="UI.OtherFunction_Function_Notification">Notification</string>
+    <string name="UI.OtherFunction_Function_History">History</string>
+    <string name="UI.OtherFunction_Function_Setting">Setting</string>
+    <string name="UI.OtherFunction_Function_About">About</string>
+    <string name="privacy_policy">www.iew-pro.com</string>
+    <string name="UI.AboutView_Text_Welcome">Welcom to</string>
+    <string name="UI.AboutView_Text_Version">"Version: "</string>
+    <string name="UI.ProfileView_Section_AccountInformation">Account Information</string>
+    <string name="UI.ProfileView_Text_MyQRCode">My QR Code</string>
+    <string name="UI.ProfileView_Text_PhoneNumber">Phone Number</string>
+    <string name="UI.ProfileView_Section_BasicInformation">Basic Information</string>
+    <string name="UI.ProfileView_Text_Name">Name</string>
+    <string name="UI.ProfileView_Text_Gender">Gender</string>
+    <string name="UI.ProfileView_Text_Birthday">Birthday</string>
+    <string name="UI.ProfileView_Text_Address">Address</string>
+    <string name="UI.ProfileView_PlaceHolder_Name">Input Name</string>
+    <string name="UI.ProfileView_PlaceHolder_Gender">Input Gender</string>
+    <string name="UI.ProfileView_PlaceHolder_Birthday">Input Birthday</string>
+    <string name="UI.ProfileView_PlaceHolder_Address">Input Address</string>
+    <string name="UI.ProfileView_Button_Update">Update Data</string>
+    <string name="UI.HistoryTabView_Tab_OrderHistory">Order History</string>
+    <string name="UI.HistoryTabView_Tab_ActivityHistory">Activity History</string>
+    <string name="UI.HistoryTabView_Tab_QuestionnaireHistory">Questionnaire History</string>
+    <string name="UI.EditMenuVIew_Tab_OfficialMenu">Official</string>
+    <string name="UI.EditMenuVIew_Tab_CustomMenu">Custom</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JoinLine</string>
+    <string name="UI.Splash.Title">加入Line</string>
+    <string name="UI.Splash.Desc">盡情享受團購生活</string>
+    <string name="UI.LoginTitle">請輸入你的手機號碼</string>
+    <string name="UI.LoginNEXT">下一步</string>
+    <string name="UI.SMSVerifyTitle">手機號碼認證</string>
+    <string name="UI.SMSVerifySubTitle">請輸入OTP 認證碼</string>
+    <string name="UI.SMSVerifySubmit">送出</string>
+    <string name="UI.SMSResendOTP">重新送出認證碼</string>
+    <string name="UI.IllegalPhoneNumber">不合法的電話號碼</string>
+    <string name="UI.IllegalPhoneNumberDetail">請輸入正確的電話號碼</string>
+    <string name="MSG.Error_Title">錯誤訊息</string>
+    <string name="MSG.Error_Notification_FormatError">收到的通知資料格式錯誤</string>
+    <string name="UI.Main_MainFunction">主要功能</string>
+    <string name="UI.Main_OtherFunction">其他功能</string>
+    <string name="UI.MainFunction_Function_Menu">揪團購</string>
+    <string name="UI.MainFunction_Function_Activity">揪活動</string>
+    <string name="UI.MainFunction_Function_Questionnaire">揪問卷</string>
+    <string name="UI.OtherFunction_Function_Notification">推播訊息</string>
+    <string name="UI.OtherFunction_Function_History">紀錄</string>
+    <string name="UI.OtherFunction_Function_Setting">我的設定</string>
+    <string name="UI.OtherFunction_Function_About">關於</string>
+    <string name="privacy_policy">www.iew-pro.com</string>
+    <string name="UI.AboutView_Text_Welcome">歡迎使用</string>
+    <string name="UI.AboutView_Text_Version">版本：</string>
+    <string name="UI.ProfileView_Section_AccountInformation">帳號資訊</string>
+    <string name="UI.ProfileView_Text_MyQRCode">我的條碼</string>
+    <string name="UI.ProfileView_Text_PhoneNumber">手機號碼</string>
+    <string name="UI.ProfileView_Section_BasicInformation">基本資料</string>
+    <string name="UI.ProfileView_Text_Name">姓名</string>
+    <string name="UI.ProfileView_Text_Gender">性別</string>
+    <string name="UI.ProfileView_Text_Birthday">生日</string>
+    <string name="UI.ProfileView_Text_Address">地址</string>
+    <string name="UI.ProfileView_PlaceHolder_Name">請輸入姓名</string>
+    <string name="UI.ProfileView_PlaceHolder_Gender">請輸入性別</string>
+    <string name="UI.ProfileView_PlaceHolder_Birthday">請輸入生日</string>
+    <string name="UI.ProfileView_PlaceHolder_Address">請輸入地址</string>
+    <string name="UI.ProfileView_Button_Update">更新資料</string>
+    <string name="UI.HistoryTabView_Tab_OrderHistory">團購紀錄</string>
+    <string name="UI.HistoryTabView_Tab_ActivityHistory">活動紀錄</string>
+    <string name="UI.HistoryTabView_Tab_QuestionnaireHistory">問卷紀錄</string>
+    <string name="UI.EditMenuVIew_Tab_OfficialMenu">品牌</string>
+    <string name="UI.EditMenuVIew_Tab_CustomMenu">自訂</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_ItemOrderHistory"
+        android:icon="@drawable/icon_history"
+        android:title="@string/UI.HistoryTabView_Tab_OrderHistory"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_ItemActivityHistory"
+        android:icon="@drawable/icon_history"
+        android:title="@string/UI.HistoryTabView_Tab_ActivityHistory"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_ItemQuestionnaireHistory"
+        android:icon="@drawable/icon_history"
+        android:title="@string/UI.HistoryTabView_Tab_QuestionnaireHistory"
+        app:showAsAction="ifRoom"
+        />
+</menu>

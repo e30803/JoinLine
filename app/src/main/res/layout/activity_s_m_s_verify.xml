@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.SMSVerifyActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/UI.SMSVerifyTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/UI.SMSVerifySubTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editTextVerifyCode"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:inputType="phone"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@color/colorAccent"
+        android:maxLines="6"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <android.widget.Button
+        android:id="@+id/btnSubmitOTP"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:background="#EC407A"
+        android:text="@string/UI.SMSVerifySubmit"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/txtReSendCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/UI.SMSResendOTP"
+        android:textAlignment="center"
+        android:textColor="#EC407A"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

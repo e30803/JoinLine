@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_navigation"
+    app:startDestination="@+id/navigation_ItemOrderHistory">
+
+
+    <fragment
+        android:id="@+id/navigation_ItemOrderHistory"
+        android:name="com.iew.cstudio.joinline.historyTabView.FragmentOrderHistory"
+        android:label="@string/UI.HistoryTabView_Tab_OrderHistory"
+        tools:layout="@layout/fragment_order_history" />
+
+    <fragment
+        android:id="@+id/navigation_ItemActivityHistory"
+        android:name="com.iew.cstudio.joinline.historyTabView.FragmentActivityHistory"
+        android:label="@string/UI.HistoryTabView_Tab_ActivityHistory"
+        tools:layout="@layout/fragment_activity_history" />
+
+    <fragment
+        android:id="@+id/navigation_ItemQuestionnaireHistory"
+        android:name="com.iew.cstudio.joinline.historyTabView.FragmentQuestionnaireHistory"
+        android:label="@string/UI.HistoryTabView_Tab_QuestionnaireHistory"
+        tools:layout="@layout/fragment_questionnaire_history" />
+
+</navigation>

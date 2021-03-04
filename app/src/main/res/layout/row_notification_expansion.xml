@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/NotificationView_LinearLayout_Margin"
+        android:background="@drawable/bg_row_notification"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <com.github.florent37.expansionpanel.ExpansionHeader
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/NotificationView_Expansion_Margin"
+            app:expansion_headerIndicator="@id/headerIndicator"
+            app:expansion_layout="@id/expansionLayout"
+            app:expansion_toggleOnClick="true"
+            app:expansion_headerIndicatorRotationCollapsed="0"
+            app:expansion_headerIndicatorRotationExpanded="90">
+
+            <!-- HEADER -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtNotifyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="this it test"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/txtNotifyTimeStamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20200112"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <!-- HEADER INDICATOR -->
+            <ImageView
+                android:id="@+id/headerIndicator"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="16dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/icon_disclosure_indicator"
+                app:tint="#FFFFFF" />
+
+
+        </com.github.florent37.expansionpanel.ExpansionHeader>
+
+        <com.github.florent37.expansionpanel.ExpansionLayout
+            android:id="@+id/expansionLayout"
+            android:layout_marginLeft="@dimen/NotificationView_Expansion_Margin"
+            android:layout_marginRight="@dimen/NotificationView_Expansion_Margin"
+            android:layout_marginBottom="@dimen/NotificationView_Expansion_Margin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <!-- CONTENT -->
+
+            <TextView
+                android:id="@+id/txtNotifyDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </com.github.florent37.expansionpanel.ExpansionLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

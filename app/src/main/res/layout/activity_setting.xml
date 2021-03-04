@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+            android:text="@string/UI.ProfileView_Section_AccountInformation"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+            android:divider="@drawable/divider_vertical"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_MyQRCode"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/DisclosureIndicator"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/icon_disclosure_indicator"
+                    app:tint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_PhoneNumber"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/txtProfilePhoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+8869123456789"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+            android:text="@string/UI.ProfileView_Section_BasicInformation"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+            android:divider="@drawable/divider_vertical"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_Name"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editProfileName"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ProfileView_EditBoxHeight"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edittext_normal"
+                    android:ems="10"
+                    android:hint="@string/UI.ProfileView_PlaceHolder_Name"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textColorHint="@android:color/secondary_text_light"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_Gender"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editGender"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ProfileView_EditBoxHeight"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edittext_normal"
+                    android:ems="10"
+                    android:hint="@string/UI.ProfileView_PlaceHolder_Gender"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textColorHint="@android:color/secondary_text_light"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_Birthday"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editBirthday"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ProfileView_EditBoxHeight"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edittext_normal"
+                    android:ems="10"
+                    android:hint="@string/UI.ProfileView_PlaceHolder_Birthday"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textColorHint="@android:color/secondary_text_light"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/UI.ProfileView_Text_Address"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ProfileView_EditBoxHeight"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edittext_normal"
+                    android:ems="10"
+                    android:hint="@string/UI.ProfileView_PlaceHolder_Address"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textColorHint="@android:color/secondary_text_light"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ProfileUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ProfileView_LinearLayout_Margin"
+            android:background="@drawable/bg_button_lightblue"
+            android:text="@string/UI.ProfileView_Button_Update"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

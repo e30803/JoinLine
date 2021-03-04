@@ -42,7 +42,7 @@ class FragmentOfficialBrand : Fragment(), IRCAdapterOnClick, IDrawerViewOnClick 
         lstBrandCategory.add("飲料類")
         lstBrandCategory.add("雞蛋糕")
         lstBrandCategory.add("類別 A")
-
+        lstBrandCategory.add("類別 BBB")
 
         drawerView_comple.initCategory(lstBrandCategory,this)
 

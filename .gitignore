@@ -2,3 +2,12 @@
 /.gradle/
 /app/build/
 /app/build/intermediates/javac/debug/classes/
+
+#added  
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+*.iml
